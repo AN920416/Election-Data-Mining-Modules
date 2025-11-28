@@ -1,6 +1,6 @@
 # 2024 U.S. Election Text Mining Modules
 
-## 🎓 Project Context
+## Project Context
 * **Course:** IM 5054 Introduction of Text Mining
 * **Project Title:** Political Spectrum and Sentiment Analysis: Investigating Social Platforms' Stance on the U.S. Election
 * **Team Members:**
@@ -10,13 +10,13 @@
     * Yu-Chen Lin
     * Hsiao-Lien Peng
 
-## 📖 About This Repository
+## About This Repository
 This repository serves as a code archive for specific technical components of our final group project. While the full group report focuses on sentiment analysis (VADER) and political stance detection, this repository contains:
 
 1.  **Data Collection Module**: The Reddit crawler used to build the project's corpus (Group Contribution).
 2.  **Clustering Experiment**: An independent unsupervised learning extension conducted individually (Personal Extension, not included in the final group report).
 
-## 📂 Repository Contents
+## Repository Contents
 
 ### 1. Data Collection (`reddit_crawler.ipynb`)
 The primary data acquisition tool for the project.
@@ -36,7 +36,7 @@ The primary data acquisition tool for the project.
         * **K-Means:** Applied to categorize distinct topics within the dataset.
     * **Analysis:** Includes elbow method visualization and keyword extraction for each cluster.
 
-## 🛠️ Technologies Used
+## Technologies Used
 * **Python 3.x**
 * **PRAW** (Python Reddit API Wrapper)
 * **Scikit-learn** (KMeans, DBSCAN, TfidfVectorizer)
